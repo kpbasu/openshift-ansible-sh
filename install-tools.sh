@@ -6,7 +6,7 @@
 yum update -y
 
 # install the following base packages
-yum install -y  wget git zile nano net-tools docker-1.13.1\
+yum install -y  wget git yum-plugin-versionlock zile nano net-tools docker-1.13.1\
 				bind-utils iptables-services \
 				bridge-utils bash-completion \
 				kexec-tools sos psacct openssl-devel \
@@ -33,3 +33,4 @@ yum -y --enablerepo=epel install pyOpenSSL
 #yum -y --enablerepo=epel install ansible.rpm
 
 yum -y --enablerepo=epel install https://releases.ansible.com/ansible/rpm/release/epel-7-x86_64/ansible-2.6.5-1.el7.ans.noarch.rpm
+yum versionlock ansible-2.6.5-1.el7.ans.noarch
