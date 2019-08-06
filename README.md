@@ -65,6 +65,7 @@ Copy *install-tools.sh* from one node to another one so you can run install pre-
 
 ```
 #To ssh from one node to another using .pem file
+$ ssh-keygen -q -N "" 
 $ scp -i keypair.pem install-tools.sh  root@host_ip:~/
 $ ssh -i Openshift-keypair.pem root@host_ip
 $ ./install-tools.sh
