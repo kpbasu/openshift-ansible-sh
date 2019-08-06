@@ -81,6 +81,8 @@ You may want to configure new **domain name**, you can replace it. In my case, d
 
 Replace your domain name with the following properties in inventory file:
 
+cp inventory-3nodes.ini inventory.ini
+
 ```
 openshift_public_hostname=console.your_domain_name
 openshift_master_default_subdomain=apps.your_domain_name
