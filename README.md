@@ -42,7 +42,7 @@ Now you are ready to login with *root* user with the same private keys which you
 
 ```
 $ yum install -y git
-$ git clone https://github.com/arunvdsharma/openshift-centos.git
+$ git clone https://github.com/kpbasu/openshift-ansible-sh.git
 $ cd openshift-centos
 ```
 
