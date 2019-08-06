@@ -95,4 +95,9 @@ $ chmod +x install-openshift.sh
 $ ./install-openshift.sh
 ```
 
+The detailed logs are in failed pods. Checkout the log with
+
+$ docker ps -a
+$ docker logs -f --tail 10 <container-id>
+	
 If all the ansible jobs are successful, you can access Openshift dashboard on **https://console.your_domain_name**
