@@ -103,3 +103,5 @@ $ docker logs -f --tail 10 <container-id>
 ```
 
 If all the ansible jobs are successful, you can access Openshift dashboard on **https://console.your_domain_name**
+
+NOTE: For RHEL follow http://crunchtools.com/hackers-guide-to-installing-openshift-container-platform-3-11/
